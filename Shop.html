@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unicla | Ecommerce</title>
+    <link rel="stylesheet" href="Css/Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto+Mono:ital,wght@0,100;
+    0,200;0,300;0,400;1,200;0,300;0,400;1,200;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="nav_bar">
+                <div class="logo">
+                    <img src="img/Logo.png" 
+                    alt="Logo Empresarial" width="125px">
+                </div>
+                <nav>
+                    <ul id ="menu_items">
+                        <li><a href="Index.html">Inicio</a></li>
+                        <li><a href="Products.html">Productos</a></li>
+                        <li><a href="Nosotros.html">Nosotros</a></li>
+                        <li><a href="Contact.html">Contacto</a></li>
+                        <li><a href="Login.html">Cuenta</a></li>
+                    </ul>
+                </nav>
+                <img src="img/Menu.png" class="menu-icon" onclick="menu_toggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1> Encuentra tu estilo <br> 
+                    Descubre tu pasión.</h1>
+                    <br>
+                    <p>
+                        Tu estilo es tu pasión, 
+                        comparterlo con el mundo. 
+                    </p>
+                    <a href="" class="cta">Descubrete &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="img/Pasion.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--------------productos del carro---------------------------->
+
+<div class="small_container carro_compras">
+    <table>
+        <tr>
+            <th>Producto</th>
+            <th>Calidad</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart_info">
+                    <img src="img/Modelos/Modelo_chaqueta.jpg">
+                    <div>
+                        <p>chaqueta de cuero</p>
+                        <small>price $200.00</small>
+                        <a href="">remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$200.00</td>
+        </tr>
+    </table>
+    <section class="total">
+        <table>
+            <tr>
+                <td>subtotal</td>
+                <td>$200.00</td>
+            </tr>
+            <tr>
+                <td>IVA</td>
+                <td>$32.00</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>$232.00</td>
+            </tr>
+        </table>
+    </section>
+</div>
+
+<!-----------------------Pie de Pagina-------------------------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Mi Ecommerce</h3>
+                <p>Tienda de ropa y calzado a un clic de distancia.</p>
+            </div>
+            <div class="footer-col-2">
+                <img src="img/Logo.png" alt="">
+                <p>Nuestro proposito es brindar el mejor servicio en la 
+                 venta de ropa y calzado de primera calidad.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Beneficios unicos para ti.</h3>
+                <ul>
+                    <a href="#"><li> Cupones de descuentos </li></a>
+                    <a href="#"><li> Blog de estilos </li></a>
+                    <a href="#"><li> Aviso de Privacidad </li></a>
+                    <a href="#"><li> Tarjeta de afiliado </li></a>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Siguenos.</h3>
+                <ul>
+                    <a href="#"><li> Instagram </li></a>
+                    <a href="#"><li> Tik Tok </li></a>
+                    <a href="#"><li> Twitter </li></a>
+                    <a href="#"><li> Youtube </li></a>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright"><p>Derechos reservados 2024</p></div>
+    </div>
+</div>
+<script src="Js/Script.js"></script>
+</body>
+</html>
